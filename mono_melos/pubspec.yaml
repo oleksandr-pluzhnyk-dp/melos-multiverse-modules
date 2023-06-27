@@ -51,6 +51,7 @@ dev_dependencies:
     git:
       url: https://github.com/glamurnik/melosMonoTest.git
       path: mono_melos/packages/header_module
+      tag: 0.0.1
 # The following section is specific to Flutter packages.
 flutter:
 
