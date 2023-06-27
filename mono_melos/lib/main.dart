@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mono_melos/header_widget.dart';
+// ignore: depend_on_referenced_packages
+import 'package:header_module/header_module.dart';
 
 void main() {
   runApp(const MyApp());
