@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mono_melos/header_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -105,6 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            const HeaderWidget(),
             const Text(
               'You have pushed the button this many times:',
             ),
