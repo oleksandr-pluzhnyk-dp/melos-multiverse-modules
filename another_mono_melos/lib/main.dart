@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+
 // ignore: depend_on_referenced_packages
 import 'package:header_module/header_module.dart';
+import 'package:http_utility/http_utility.dart';
 
 void main() {
   runApp(const MyApp());
@@ -108,6 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const HeaderWidget(),
+            Text('HttpUtility >> Headers : ${HttpUtility().getUtilities().getHeaders()}'),
             const Text(
               'You have pushed the button this many times:',
             ),
