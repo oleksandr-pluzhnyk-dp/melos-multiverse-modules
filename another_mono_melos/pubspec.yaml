@@ -48,7 +48,7 @@ dev_dependencies:
   flutter_lints: ^2.0.0
   header_module:
     git:
-      url: https://github.com/glamurnik/melosMonoTest.git
+      url: https://github.com/oleksandr-pluzhnyk-dp/melos-multiverse-modules.git
       path: mono_melos/packages/header_module
       ref: 0.0.1
 # For information on the generic Dart part of this file, see the

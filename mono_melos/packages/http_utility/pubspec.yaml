@@ -1,0 +1,17 @@
+name: http_utility
+description: Http utility classes
+repository: https://github.com/oleksandr-pluzhnyk-dp/melos-multiverse-modules/tree/main/mono_melos/packages/http_utility
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
