@@ -1,3 +1,7 @@
+## 0.0.6
+
+ - **FEAT**: Use HttpUtility package inside module.
+
 ## 0.0.5
 
  - **FEAT**: Pass color as "headerColor" param into widget.

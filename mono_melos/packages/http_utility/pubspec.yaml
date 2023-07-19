@@ -2,6 +2,7 @@ name: http_utility
 description: Http utility classes
 repository: https://github.com/oleksandr-pluzhnyk-dp/melos-multiverse-modules/tree/main/mono_melos/packages/http_utility
 version: 0.0.2
+publish_to: none
 
 environment:
   sdk: '>=3.0.3 <4.0.0'
