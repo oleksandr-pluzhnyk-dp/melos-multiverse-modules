@@ -1,3 +1,3 @@
 abstract class HttpUtilityIF {
-  Map<String, String> getHeaders();
+  Map<String, String> getHeaders(String acceptHeaderValue);
 }

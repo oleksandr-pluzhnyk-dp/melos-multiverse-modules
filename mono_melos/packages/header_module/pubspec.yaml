@@ -1,7 +1,7 @@
 name: header_module
 description: A new Flutter package project.
 repository: https://github.com/glamurnik/melosMonoTest/tree/main/mono_melos/packages/header_module
-version: 0.0.4
+version: 0.0.5
 
 environment:
   sdk: '>=3.0.3 <4.0.0'
