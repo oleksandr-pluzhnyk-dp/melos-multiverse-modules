@@ -18,7 +18,7 @@ dependencies:
     git:
       url: https://github.com/oleksandr-pluzhnyk-dp/melos-multiverse-modules.git
       path: mono_melos/packages/header_module
-      ref: header_module-v0.0.4 # can be branch, tag or git hash
+      ref: header_module-v0.0.6 # can be branch, tag or git hash
 
   http_utility:
     git:
@@ -31,6 +31,13 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+
+dependency_overrides:
+  http_utility:
+    git:
+      url: https://github.com/oleksandr-pluzhnyk-dp/melos-multiverse-modules.git
+      path: mono_melos/packages/http_utility
+      ref: http_utility.0.0.2 # can be branch, tag or git hash
 
 flutter:
   uses-material-design: true
